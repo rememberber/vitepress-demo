@@ -1,0 +1,29 @@
+::-webkit-backdrop {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+:root {
+  --vp-nav-bg-color: rgba(255, 255, 255, 0.8);
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+}
+
+.dark {
+  --vp-nav-bg-color: rgba(36, 36, 36, 0.8);
+}
+
+.VPNav {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  background-color: var(--vp-nav-bg-color) !important;
+}
+
+.VPHero {
+  padding: 100px 24px;
+}
+
+.VPHero .image {
+  max-width: 300px;
+  margin: 0 auto;
+}
